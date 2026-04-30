@@ -28,10 +28,7 @@ still be viewed and edited.
 Install via your favorite plugin manager (packer, lazy, whatever) and then:
 
 ```lua
-require("org-links").setup({
-  filetypes = { "org" },
-  hl_group = "Underlined",
-})
+require("org-links").setup()
 ```
 
 # Limitations

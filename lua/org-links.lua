@@ -111,7 +111,7 @@ function M.refresh_all_windows_for_buffer(bufnr)
 end
 
 function M.setup(opts)
-  M.config = vim.tbl_deep_extend("force", {}, defaults, opts or {})
+  M.config = vim.tbl_deep_extend("force", vim.deepcopy(defaults), opts or {})
 
   local group = vim.api.nvim_create_augroup("OrgLinks", { clear = true })
 
