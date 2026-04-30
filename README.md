@@ -1,6 +1,7 @@
 # org-links
 
-This is a plugin to prettify links in orgmode files.
+This is a plugin to prettify links in orgmode files. It requires
+[nvim-orgmode](https://github.com/nvim-orgmode/orgmode).
 
 A link in orgmode can look like either of these:
 
